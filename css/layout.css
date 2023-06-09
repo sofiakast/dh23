@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+
+.header {
+    height: 130px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    background-color: #762126;
+}
+
+.header > .aueb-img {
+    width:500px;
+    height:auto;
+}
+
+.header > ul {
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.header a{
+    display: inline-block;
+    padding: 25px;
+    text-decoration: none;
+    color:black;
+}
+
+.header a:hover{
+    background-color:black;
+    color:white;
+}
+
+.nav-toggle{
+   display: none;
+   margin-right: 15px;
+   /*για να μην κολλάει δεξιά*/
+}
+
+.nav-toggle > button {
+    width: 50px;
+    height: 50px;
+}
+
+.home-img {
+    /*ύψος βιουπορτ-ύψος header*/
+    overflow: hidden;
+    height: calc(95vh - 130px);
+    background-image: url('./Ημερίδα2018\ \(11\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.home-text {
+    margin-top: 80px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-title {
+    color: white;
+    font-size: 3.5em;    
+}
+
+
+
+@media (max-width: 1200px){
+    .header .nav {
+        display:none;
+    }
+    .nav-toggle{
+        display: block;
+    }
+}
+
+@media (max-width:768px) {
+.header > .aueb-img{
+    width:450px;
+}
+.nav-toggle > button {
+    width:45px;
+    height:45px;
+}
+}
+
+/*κατω από 1000 πιξελ θέλουμε να εξαφανίζεται το μενού κια να εμφανίζεται το nav toggle*/
+@media (max-width:600px) {
+    .header > aueb-img{
+        width: 350px;
+    }
+    .nav-toggle >button{
+        width:40px;
+        height:40px;
+    }
+}

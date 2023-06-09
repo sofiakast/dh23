@@ -1,0 +1,29 @@
+/*@ media αν θέλω να σχεδιάζω για όλους χωρίς το σκριν. Πρέπει να σκεφτώ σε ποιες διαστάσεις θα εφαρμοστεί. ότι πάνω από 992 πιξελ το μπακγκραουντ να είναι πράσινο ενώ για κάτω από 992 μαύρο*/
+
+/*xsmall othones*/
+@media(max-width: 576px){
+    body{
+        background-color: black;
+    }
+}
+
+/*small-medium*/
+@media(min-width: 576px) and (max-width:992px){
+    body{
+        background-color: red;
+    }
+}
+
+/*large*/
+@media(min-width:992px)and (max-width:1200px)/*large*/{
+body{
+    background-color: green;
+}
+}
+
+@media (min-width:992px){
+    body{
+        background-color: green;
+    }
+    
+}

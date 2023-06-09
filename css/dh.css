@@ -1,0 +1,66 @@
+h1{
+    color:rgb(255, 255, 255);
+    background-color:rgb(62, 22, 114);
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+p{
+   font-size:1.2rem;
+   font-family:'Roboto';
+   font-weight:400;
+} 
+.dh-text{
+    font-size:26px;
+}
+#dhText{
+    color:rgb(81, 81, 182);
+    background-color:rgb(75, 12, 71)
+}
+.bg-dark{
+    background-color: black;
+}
+
+.bg-light{
+    background-color: aqua;
+}
+.fg-light{
+    color:white;
+}
+.fg-dark{
+    color:darkblue;
+}
+.menu > li{
+    font-size:26px ;
+}
+
+h1~p{
+    background-color:green;
+}
+
+a:link{
+color:black;
+text-decoration: none;
+}
+
+a:visited{
+    color:red;
+}
+
+a:focus{
+    outline:none;
+    background-color:yellow;
+}
+
+a:hover{
+    background-color:red;
+    color:white;
+
+}
+
+a:active{
+    background-color: white;
+    color:green;
+}
+
+.menu > :first-child(3){
+
+}

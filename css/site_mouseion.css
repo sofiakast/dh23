@@ -1,0 +1,61 @@
+h1{
+    color:rgb(5, 63, 46);
+    background-color:rgb(182, 149, 186);
+    font-family:'Abel', Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+}
+
+table{
+    font-family:'Abel', Arial, Helvetica, sans-serif; 
+    font-size:1rem;
+}    
+
+p{
+    font-family:'Abel', Arial, Helvetica, sans-serif; 
+}
+
+.bg-dark{
+   color:white;
+    background-color:rgb(2, 44, 32)
+}
+
+.bg-light{
+    background-color: rgb(222, 155, 234);
+}
+h1+p{
+    background-color:green;
+}
+
+a:link{
+    color: rgb(26, 48, 120);
+}
+
+a:visited{
+    color:rgb(225, 157, 215);
+}
+a:focus{
+    color:brown;
+}
+a:hover{
+    color:rgb(8, 78, 8);
+}
+
+a:active{
+    color:yellow;
+}
+
+h3{
+    font-family:'Abel', Arial, Helvetica, sans-serif; 
+
+}
+.sign-in{
+    font-family:'Abel', Arial, Helvetica, sans-serif; 
+}
+.com{
+    font-family:'Abel', Arial, Helvetica, sans-serif; 
+
+}
+form{
+    font-family:'Abel', Arial, Helvetica, sans-serif; 
+
+}
